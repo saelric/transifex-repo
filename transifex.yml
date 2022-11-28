@@ -1,0 +1,7 @@
+git:
+    - filter_type: file
+      file_format: KEYVALUEJSON
+      source_file: src/lang/en.json
+      source_language: en
+      translation_files_expression: 'src/lang/<lang>.json'
+      pr_branch_name: branch_name_<br_unique_id>
