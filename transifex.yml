@@ -1,10 +1,8 @@
 git:
   filters:
   - filter_type: file
-    file_format: KEYVALUEJSON
+    file_format: PO
     source_language: en
-    source_file: 'src/lang/en.json'
-    translation_files_expression: 'src/lang/<lang>.json'
+    source_file: 'src/django.po'
+    translation_files_expression: 'translations/<lang>.json'
 
-  settings:    
-    pr_branch_name: branch_name_<br_unique_id>
