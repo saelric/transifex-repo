@@ -1,8 +1,8 @@
 git:
   filters:
-  - filter_type: file
+  - filter_type: dir
     file_format: PO
-    source_language: en
-    source_file: 'src/django.po'
-    translation_files_expression: 'translations/<lang>.json'
-
+    source_file_extension: po
+    source_language: su
+    source_file_dir: 'src/'
+    translation_files_expression: 'translations/<lang>/'
