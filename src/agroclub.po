@@ -1,0 +1,549 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-08 12:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: deals/admin.py:19
+msgid "Deal File"
+msgstr "Deal File"
+
+#: deals/admin.py:20
+msgid "Deal Files"
+msgstr "Deal Files"
+
+#: deals/api/filters.py:23
+msgid "search term"
+msgstr "search term"
+
+#: deals/api/serializers/declaration.py:37
+msgid ""
+"The year in the start date of the declaration does not match the year in the"
+" declaration number."
+msgstr ""
+"The year in the start date of the declaration does not match the year in the"
+" declaration number."
+
+#: deals/funnel/match.py:121 deals/tasks.py:48 deals/tasks.py:66
+msgid "Check bid matches"
+msgstr "Check bid matches"
+
+#: deals/management/commands/check_deals_without_executors.py:76
+msgid "Select deal executors"
+msgstr "Select deal executors"
+
+#: deals/management/commands/check_deals_without_executors.py:78
+msgid "Both user & deal coordinators have to be selected"
+msgstr "Both user & deal coordinators have to be selected"
+
+#: deals/models/carrier_response.py:16
+msgid "full name"
+msgstr "full name"
+
+#: deals/models/carrier_response.py:20
+msgid "phone"
+msgstr "phone"
+
+#: deals/models/carrier_response.py:27 deals/models/deal.py:200
+#: deals/models/deal_executors.py:16 deals/models/deal_status_data.py:21
+#: deals/models/declaration.py:29
+msgid "deal"
+msgstr "deal"
+
+#: deals/models/carrier_response.py:31
+msgid "carrier response"
+msgstr "carrier response"
+
+#: deals/models/carrier_response.py:32
+msgid "carrier responses"
+msgstr "carrier responses"
+
+#: deals/models/choices.py:8 deals/models/choices.py:59
+msgid "draft"
+msgstr "draft"
+
+#: deals/models/choices.py:9 deals/models/choices.py:60
+msgid "new"
+msgstr "new"
+
+#: deals/models/choices.py:10
+msgid "in progress"
+msgstr "in progress"
+
+#: deals/models/choices.py:11
+msgid "agreed"
+msgstr "agreed"
+
+#: deals/models/choices.py:12
+msgid "contract signed"
+msgstr "contract signed"
+
+#: deals/models/choices.py:13
+msgid "payment / shipment"
+msgstr "payment / shipment"
+
+#: deals/models/choices.py:14 deals/models/choices.py:63
+msgid "shipment completed"
+msgstr "shipment completed"
+
+#: deals/models/choices.py:15
+msgid "documents accepted"
+msgstr "documents accepted"
+
+#: deals/models/choices.py:16
+msgid "payment completed"
+msgstr "payment completed"
+
+#: deals/models/choices.py:61
+msgid "car search"
+msgstr "car search"
+
+#: deals/models/choices.py:62
+msgid "shipping"
+msgstr "shipping"
+
+#: deals/models/choices.py:79
+msgid "agent"
+msgstr "agent"
+
+#: deals/models/choices.py:80
+msgid "trade"
+msgstr "trade"
+
+#: deals/models/choices.py:86
+msgid "matching"
+msgstr "matching"
+
+#: deals/models/choices.py:87
+msgid "response"
+msgstr "response"
+
+#: deals/models/choices.py:101
+msgid "price ss"
+msgstr "price ss"
+
+#: deals/models/choices.py:102
+msgid "price zz"
+msgstr "price zz"
+
+#: deals/models/choices.py:103
+msgid "logistics"
+msgstr "logistics"
+
+#: deals/models/choices.py:104
+msgid "slow documents/sampling"
+msgstr "slow documents/sampling"
+
+#: deals/models/choices.py:105
+msgid "no documents"
+msgstr "no documents"
+
+#: deals/models/choices.py:106
+msgid "quality"
+msgstr "quality"
+
+#: deals/models/choices.py:107
+msgid "small margin"
+msgstr "small margin"
+
+#: deals/models/choices.py:108
+msgid "outer factors"
+msgstr "outer factors"
+
+#: deals/models/choices.py:109
+msgid "better matches"
+msgstr "better matches"
+
+#: deals/models/choices.py:110
+msgid "security check"
+msgstr "security check"
+
+#: deals/models/choices.py:111
+msgid "not actual bid"
+msgstr "not actual bid"
+
+#: deals/models/choices.py:112
+msgid "refused to sell"
+msgstr "refused to sell"
+
+#: deals/models/choices.py:113
+msgid "payment"
+msgstr "payment"
+
+#: deals/models/choices.py:119
+msgid "sale"
+msgstr "sale"
+
+#: deals/models/choices.py:120
+msgid "purchase"
+msgstr "purchase"
+
+#: deals/models/choices.py:126
+msgid "not approved"
+msgstr "not approved"
+
+#: deals/models/choices.py:128
+msgid "approved by logistician"
+msgstr "approved by logistician"
+
+#: deals/models/choices.py:131
+msgid "approved by commercial director"
+msgstr "approved by commercial director"
+
+#: deals/models/deal.py:64 deals/models/deal_status_data.py:24
+msgid "status"
+msgstr "status"
+
+#: deals/models/deal.py:69
+msgid "logistics status"
+msgstr "logistics status"
+
+#: deals/models/deal.py:74
+msgid "approval status"
+msgstr "approval status"
+
+#: deals/models/deal.py:80
+msgid "deal type"
+msgstr "deal type"
+
+#: deals/models/deal.py:86
+msgid "source"
+msgstr "source"
+
+#: deals/models/deal.py:95
+msgid "product"
+msgstr "product"
+
+#: deals/models/deal.py:109 deals/models/deal_status_data.py:30
+msgid "price_exw"
+msgstr "price_exw"
+
+#: deals/models/deal.py:110 deals/models/deal.py:114 deals/models/deal.py:118
+#: deals/models/deal_status_data.py:31 deals/models/deal_status_data.py:35
+#: deals/models/deal_status_data.py:39 deals/models/shipment.py:28
+#: deals/models/shipment.py:32 deals/models/shipment.py:36
+msgid "In the smallest (1/100) currency unit per kg"
+msgstr "In the smallest (1/100) currency unit per kg"
+
+#: deals/models/deal.py:113 deals/models/deal_status_data.py:34
+msgid "price_cpt"
+msgstr "price_cpt"
+
+#: deals/models/deal.py:117 deals/models/deal_status_data.py:38
+#: deals/models/shipment.py:35
+msgid "price logistics"
+msgstr "price logistics"
+
+#: deals/models/deal.py:122 deals/models/shipment.py:23
+msgid "quantity"
+msgstr "quantity"
+
+#: deals/models/deal.py:123 deals/models/shipment.py:24
+msgid "In kg"
+msgstr "In kg"
+
+#: deals/models/deal.py:126
+msgid "distance"
+msgstr "distance"
+
+#: deals/models/deal.py:127
+msgid "In km"
+msgstr "In km"
+
+#: deals/models/deal.py:130
+msgid "logistics rate"
+msgstr "logistics rate"
+
+#: deals/models/deal.py:131
+msgid "in kopecks per ton per km"
+msgstr "in kopecks per ton per km"
+
+#: deals/models/deal.py:137
+msgid "paid sum"
+msgstr "paid sum"
+
+#: deals/models/deal.py:139
+msgid "In the smallest (1/100) currency unit"
+msgstr "In the smallest (1/100) currency unit"
+
+#: deals/models/deal.py:149
+msgid "closed at"
+msgstr "closed at"
+
+#: deals/models/deal.py:151
+msgid "closed reason"
+msgstr "closed reason"
+
+#: deals/models/deal.py:159
+msgid "who responded"
+msgstr "who responded"
+
+#: deals/models/deal.py:166
+msgid "is urgent deal"
+msgstr "is urgent deal"
+
+#: deals/models/deal.py:170
+msgid "purchase specification"
+msgstr "purchase specification"
+
+#: deals/models/deal.py:177
+msgid "days for export"
+msgstr "days for export"
+
+#: deals/models/deal.py:183
+msgid "planned close date"
+msgstr "planned close date"
+
+#: deals/models/deal.py:188
+msgid "actual close date"
+msgstr "actual close date"
+
+#: deals/models/deal.py:193
+msgid "margin confirmed"
+msgstr "margin confirmed"
+
+#: deals/models/deal.py:201
+msgid "deals"
+msgstr "deals"
+
+#: deals/models/deal.py:587
+msgid "🚛 Shipment complete"
+msgstr "🚛 Shipment complete"
+
+#: deals/models/deal.py:588
+msgid "Congratulations, all stages of the deal completed!"
+msgstr "Congratulations, all stages of the deal completed!"
+
+#: deals/models/deal.py:679
+msgid "✅ Contract signed"
+msgstr "✅ Contract signed"
+
+#: deals/models/deal.py:680
+msgid "Little remains to be done - payment and shipment"
+msgstr "Little remains to be done - payment and shipment"
+
+#: deals/models/deal.py:699
+msgid "💸 Payment & shipment"
+msgstr "💸 Payment & shipment"
+
+#: deals/models/deal.py:700
+msgid "At this stage payment and shipment of your product takes place"
+msgstr "At this stage payment and shipment of your product takes place"
+
+#: deals/models/deal_executors.py:27
+msgid "procurement manager"
+msgstr "procurement manager"
+
+#: deals/models/deal_executors.py:38
+msgid "regional"
+msgstr "regional"
+
+#: deals/models/deal_executors.py:49
+msgid "logistician"
+msgstr "logistician"
+
+#: deals/models/deal_executors.py:60
+msgid "deal coordinator"
+msgstr "deal coordinator"
+
+#: deals/models/deal_executors.py:66
+msgid "deal executors"
+msgstr "deal executors"
+
+#: deals/models/deal_executors.py:67
+msgid "deals executors"
+msgstr "deals executors"
+
+#: deals/models/deal_status_data.py:42
+msgid "margin"
+msgstr "margin"
+
+#: deals/models/deal_status_data.py:43
+msgid "Deal margin."
+msgstr "Deal margin."
+
+#: deals/models/deal_status_data.py:46
+msgid "margin percent"
+msgstr "margin percent"
+
+#: deals/models/deal_status_data.py:47
+msgid "Deal margin in percents."
+msgstr "Deal margin in percents."
+
+#: deals/models/deal_uploaded_file.py:24
+msgid "deal uploaded file"
+msgstr "deal uploaded file"
+
+#: deals/models/deal_uploaded_file.py:25
+msgid "deal uploaded files"
+msgstr "deal uploaded files"
+
+#: deals/models/declaration.py:18
+msgid "number must be in the format `ЕАЭС N RU С-ХХ.YYYY.А.00001/ZZ`"
+msgstr "number must be in the format `ЕАЭС N RU С-ХХ.YYYY.А.00001/ZZ`"
+
+#: deals/models/declaration.py:34
+msgid "number"
+msgstr "number"
+
+#: deals/models/declaration.py:37
+msgid "start_date"
+msgstr "start_date"
+
+#: deals/models/declaration.py:40
+msgid "files"
+msgstr "files"
+
+#: deals/models/declaration.py:48
+msgid "declaration"
+msgstr "declaration"
+
+#: deals/models/declaration.py:49
+msgid "declarations"
+msgstr "declarations"
+
+#: deals/models/declaration.py:67
+msgid "declaration file"
+msgstr "declaration file"
+
+#: deals/models/declaration.py:68
+msgid "declaration files"
+msgstr "declaration files"
+
+#: deals/models/rating.py:22
+msgid "contract signing speed"
+msgstr "contract signing speed"
+
+#: deals/models/rating.py:24
+msgid "documents collecting"
+msgstr "documents collecting"
+
+#: deals/models/rating.py:25
+msgid "seller quality"
+msgstr "seller quality"
+
+#: deals/models/rating.py:26
+msgid "shipment speed"
+msgstr "shipment speed"
+
+#: deals/models/rating.py:33
+msgid "rating value"
+msgstr "rating value"
+
+#: deals/models/rating.py:41
+msgid "rating type"
+msgstr "rating type"
+
+#: deals/models/rating.py:49
+msgid "rated deal"
+msgstr "rated deal"
+
+#: deals/models/rating.py:52
+msgid "rated deal status"
+msgstr "rated deal status"
+
+#: deals/models/rating.py:60
+msgid "rated deal seller"
+msgstr "rated deal seller"
+
+#: deals/models/rating.py:66
+msgid "coordinator who made assessment"
+msgstr "coordinator who made assessment"
+
+#: deals/models/rating.py:70
+msgid "rating"
+msgstr "rating"
+
+#: deals/models/rating.py:71
+msgid "ratings"
+msgstr "ratings"
+
+#: deals/models/shipment.py:21
+msgid "shipment date"
+msgstr "shipment date"
+
+#: deals/models/shipment.py:27
+msgid "price EXW"
+msgstr "price EXW"
+
+#: deals/models/shipment.py:31
+msgid "price CPT"
+msgstr "price CPT"
+
+#: deals/models/shipment.py:41
+msgid "created by"
+msgstr "created by"
+
+#: deals/models/shipment.py:47
+msgid "shipment id from 1c"
+msgstr "shipment id from 1c"
+
+#: deals/models/shipment.py:51
+msgid "raw data"
+msgstr "raw data"
+
+#: deals/models/shipment.py:56
+msgid "shipment"
+msgstr "shipment"
+
+#: deals/models/shipment.py:57
+msgid "shipments"
+msgstr "shipments"
+
+#: deals/services/deal_creator.py:57
+msgid "Can not use the same bid in deal."
+msgstr "Can not use the same bid in deal."
+
+#: deals/services/deal_creator.py:61
+msgid "Products of bids in deal should be the same."
+msgstr "Products of bids in deal should be the same."
+
+#: deals/services/deal_creator.py:66
+msgid "The types of bids in deal must be different."
+msgstr "The types of bids in deal must be different."
+
+#: deals/services/deal_rating_creator.py:61
+msgid "Rating of this type for deal already exists."
+msgstr "Rating of this type for deal already exists."
+
+#: deals/services/deal_rating_creator.py:70
+msgid "Deal is in inappropriate status to set this rating."
+msgstr "Deal is in inappropriate status to set this rating."
+
+#: deals/services/deal_rating_creator.py:81
+msgid "You don't have permission to set this rating."
+msgstr "You don't have permission to set this rating."
+
+#: deals/services/deal_rating_task_creator.py:43
+msgid "Contract signing speed"
+msgstr "Contract signing speed"
+
+#: deals/services/deal_rating_task_creator.py:68
+msgid "Documents collecting"
+msgstr "Documents collecting"
+
+#: deals/services/deal_rating_task_creator.py:86
+msgid "Shipment speed"
+msgstr "Shipment speed"
+
+#: deals/services/deal_rating_task_creator.py:106
+msgid "Seller quality"
+msgstr "Seller quality"
+
+#: deals/services/deal_response_creator.py:44
+msgid "Check deal response"
+msgstr "Check deal response"
