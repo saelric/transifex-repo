@@ -4,7 +4,7 @@ git:
       source_file: damus Localizations/en-US.xcloc/Localized Contents/en-US.xliff
       file_format: XLIFF
       source_language: en_US
-      translation_files_expression: damus Localizations/<lang>.xcloc/Localized Contents/<lang>.xliff
+      translation_files_expression: 'damus Localizations/<lang>.xcloc/Localized Contents/<lang>.xliff'
 
   settings:
     pr_branch_name: transifex/<br_unique_id>
