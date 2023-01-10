@@ -1,8 +1,13 @@
 git:
   filters:
-  - filter_type: dir
-    file_format: PO
-    source_file_extension: po
-    source_language: en
-    source_file_dir: 'src/'
-    translation_files_expression: 'translations/<lang>/'
+  - filter_type: file
+    file_format: XLIFF
+    source_language: en_US
+    source_file: damus Localizations/en-US.xcloc/Localized Contents/en-US.xliff
+    translation_files_expression: damus Localizations/<lang>.xcloc/Localized Contents/<lang>.xliff
+
+  settings:
+    pr_branch_name: transifex/<br_unique_id>
+    language_mapping:
+      en_US: en-US
+      es_419: es-419
