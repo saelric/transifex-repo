@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sandy De La Rosa, 2023
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-08 12:26+0000\n"
+"PO-Revision-Date: 2023-02-08 23:34+0000\n"
+"Last-Translator: Sandy De La Rosa, 2023\n"
+"Language-Team: Spanish (https://www.transifex.com/sandydlr/teams/160335/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: deals/admin.py:19
+msgid "Deal File"
+msgstr "Archivo de trato"
+
+#: deals/admin.py:20
+msgid "Deal Files"
+msgstr "Archivos de ofertas"
+
+#: deals/api/filters.py:23
+msgid "search term"
+msgstr "término de búsqueda"
+
+#: deals/services/deal_rating_task_creator.py:68
+msgid "Documents collecting"
+msgstr "Recogida de documentos"
+
+#: deals/services/deal_rating_task_creator.py:86
+msgid "Shipment speed"
+msgstr "Velocidad de envío"
+
+#: deals/services/deal_rating_task_creator.py:106
+msgid "Seller quality"
+msgstr "Calidad del vendedor"
+
+#: deals/services/deal_response_creator.py:44
+msgid "Check deal response"
+msgstr "Comprobar la respuesta del trato"
