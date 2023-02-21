@@ -5,14 +5,14 @@ git:
     source_file_extension: stringsdict
     source_language: en_US
     source_file_dir: damus/en-US.xcloc/Source Contents/damus/en-US.lproj/
-    translation_files_expression: damus/<lang>.lproj/
+    translation_files_expression: 'damus/<lang>.lproj/'
 
   - filter_type: dir
     file_format: STRINGS
     source_file_extension: strings
     source_language: en_US
     source_file_dir: damus/en-US.xcloc/Source Contents/damus/en-US.lproj/
-    translation_files_expression: damus/<lang>.lproj/
+    translation_files_expression: 'damus/<lang>.lproj/'
 
 settings:
   language_mapping:
