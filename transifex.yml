@@ -16,13 +16,13 @@ git:
 
 settings:
   language_mapping:
-    de_AT: de-AT
-    el_GR: el-GR
-    es_419: es-419
-    fr_FR: fr-FR
-    it_IT: it-IT
-    lv_LV: lv-LV
-    pl_PL: pl-PL
-    pt_PT: pt-PT
-    tr_TR: tr-TR
-    zh_CN: zh-CN
+  de_AT: de-AT
+  el_GR: el-GR
+  es_419: es-419
+  fr_FR: fr-FR
+  it_IT: it-IT
+  lv_LV: lv-LV
+  pl_PL: pl-PL
+  pt_PT: pt-PT
+  tr_TR: tr-TR
+  zh_CN: zh-CN
