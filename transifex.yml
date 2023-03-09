@@ -1,7 +1,6 @@
-git:
-  filters:
-    - filter_type: file
-      file_format: KEYVALUEJSON
-      source_language: en
-      source_file: config/translations/en.json
-      translation_files_expression: 'config/translations/<lang>.json'
+filters:
+  - filter_type: file
+    file_format: XLIFF
+    source_language: en
+    source_file: /bibek_file.xlf
+    translation_files_expression: 'locale_<lang>.properties'
