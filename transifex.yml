@@ -1,10 +1,7 @@
 filters:
   - filter_type: file
-    file_format: XLIFF
+    file_format: PO
     source_language: en
-    source_file: /bibek_file.xlf
-    translation_files_expression: 'locale_<lang>.properties'
+    source_file: /example.po
+    translation_files_expression: 'locale_<lang>.po'
 
-settings:
-  language_mapping:
-    fr@qtfiletype: fr
