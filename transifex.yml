@@ -1,13 +1,14 @@
-filters:
-  - filter_type: file
-    file_format: KEYVALUEJSON
-    source_language: en
-    source_file: descriptions/en.json
-    translation_files_expression: '/descriptions/<lang>.json'
-    
-  - filter_type: file
-    file_format: KEYVALUEJSON
-    source_language: en
-    source_file: descriptions/en.json
-    translation_files_expression: '/descriptions/<lang>-NO.json'
+git:
+  filters:
+    - filter_type: file
+      file_format: KEYVALUEJSON
+      source_language: en
+      source_file: descriptions/en.json
+      translation_files_expression: '/descriptions/<lang>.json'
+
+    - filter_type: file
+      file_format: KEYVALUEJSON
+      source_language: en
+      source_file: descriptions/en.json
+      translation_files_expression: '/descriptions/<lang>-NO.json'
 
